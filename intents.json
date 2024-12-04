@@ -1,0 +1,34 @@
+{"intents":[
+    {
+        "tag": "saludo",
+        "patterns": ["Hola", "Buenos días","buenos días!", "saludos"],
+        "responses": ["Hola!", "Buenos días!", "Saludos!"]
+    },
+    {
+        "tag":"despedida",
+        "patterns": ["Adiós", "Nos vemos", "Hasta luego", "Hasta la próxima","Adios"],
+        "responses": ["¡Nos vemos!", "Que tengas un buen día", "¡Adiós! Vuelve pronto."]
+    },
+    {
+        "tag":"agradecimientos",
+        "patterns": ["Gracias", "Te lo agradezco", "Eso fue útil", "Genial, gracias", "Gracias por ayudarme"],
+        "responses": ["¡Feliz de ayudar!", "¡En cualquier momento!", "Un placer", "Gracias a ti, ¿Alguna consulta más?"]
+    },
+    {
+        "tag":"sinrespuesta",
+        "patterns": [""],
+        "responses": ["Lo siento, no te entiendo", "Por favor, dame más información", "Lo siento, no ha especificado información"]
+    },
+    {
+        "tag":"estado",
+        "patterns": ["¿Qué tal?", "¿Cómo estás?", "¿Qué tal el día?"],
+        "responses": ["Todo bien!", "Muy bien!", "Bien"]
+    },
+    {
+        "tag": "nombre",
+        "patterns": ["¿Cómo te llamas?", "cómo te llamas"],
+        "responses": ["Me llamo ChatBot", "Mi nombre es ChatBot"]
+    }
+]
+
+}
